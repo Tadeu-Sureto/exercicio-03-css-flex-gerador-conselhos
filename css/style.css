@@ -1,0 +1,68 @@
+:root{
+    background-color: hsl(218, 23%, 16%); 
+}
+
+.container{
+    height: 280px;
+    width: 470px;
+    margin: 0 auto;
+    margin-top: 180px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+}
+
+.gerador{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.advice{
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sem serifa;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.msg-inicial{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Manrope', sem serifa;
+    font-size: 18px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.botao-gerar{
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.botao-gerar:hover{
+    background-color: hsl(150, 100%, 66%);
+    transition: 0.5s;
+}
+
+@media(min-width:470px){
+    .container{
+        height: 280px;
+        width: 470px;
+    }
+
+    .msg-inicial{
+        padding: 26px;
+        text-align: center;
+    }
+}
